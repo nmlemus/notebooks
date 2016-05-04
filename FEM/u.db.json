@@ -1,0 +1,11 @@
+{ "onelab":{
+  "creator":"",
+  "date":"Wed May  4 09:24:01 2016",
+  "parameters":[ 
+    { "type":"number", "version":"1.1", "name":"0Metamodel/Loop", "label":"", "help":"", "neverChanged":false", "visible":false", "readOnly":false", "attributes":{  }, "clients":{  }, "value":0, "min":-1e+200, "max":1e+200, "step":0, "index":-1, "choices":[  ], "valueLabels":{  } }
+    { "type":"string", "version":"1.1", "name":"Gmsh/Action", "label":"", "help":"", "neverChanged":true", "visible":false", "readOnly":false", "attributes":{  }, "clients":{ "Gmsh":false }, "value":"", "kind":"generic", "choices":[  ] }
+    { "type":"number", "version":"1.1", "name":"Gmsh/Model dimension", "label":"", "help":"", "neverChanged":false", "visible":false", "readOnly":true", "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":false }, "value":-1, "min":-1e+200, "max":1e+200, "step":0, "index":-1, "choices":[  ], "valueLabels":{  } }
+    { "type":"string", "version":"1.1", "name":"Gmsh/Model name", "label":"", "help":"", "neverChanged":true", "visible":false", "readOnly":true", "attributes":{  }, "clients":{ "Gmsh":false }, "value":"Dropbox/PhD/notebooks/FEM/u.pos", "kind":"generic", "choices":[  ] }
+    { "type":"string", "version":"1.1", "name":"Gmsh/MshFileName", "label":"Mesh name", "help":"", "neverChanged":false", "visible":true", "readOnly":false", "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":false }, "value":"Dropbox/PhD/notebooks/FEM/u.msh", "kind":"file", "choices":[  ] }
+    { "type":"number", "version":"1.1", "name":"Gmsh/Number of physical groups", "label":"", "help":"", "neverChanged":false", "visible":false", "readOnly":true", "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":false }, "value":0, "min":-1e+200, "max":1e+200, "step":0, "index":-1, "choices":[  ], "valueLabels":{  } }
+] }
